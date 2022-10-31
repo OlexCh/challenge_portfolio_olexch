@@ -1,17 +1,16 @@
 # Task 1: Software Configuration
 ## Subtask 1: Why did I choose to participate in the Dare IT Challenge?
 ### &emsp; Hello! My name is Oleksandr.
-<h3>I want to become a QA Engineer because 
-I like making products better.
+### &emsp; I want to become a QA Engineer because I like making products better.
 
-&emsp;I have many years of experience in telecommunications
+<h3>&emsp;I have many years of experience in telecommunications
 and financial technology sector.
 During my work with clients, I realized that clients are interested in reliable product
 quality. I also understand that offering a product that has not been thoroughly
 tested may damage the product owner's reputation and impact sales.<br/>
 Thus, It is crucial to discover the true state of a product and improve it to meet the expectations of the consumer.</h3>
 
-<h3>&emsp; <span style="color:blue"> DARE IT</span>'s ["QA Automated Testing" project](https://challenges.dareit.io/ua-qa/)
+<h3>&emsp; DARE IT's <a href="https://challenges.dareit.io/ua-qa/">"QA Automated Testing" project</a>
 caught my attention because the training is done using the Challenge.<br/>
 It is a good innovative solution that uses a lot of practice 
 and teamwork to gain knowledge.
