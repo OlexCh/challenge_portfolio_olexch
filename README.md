@@ -1,4 +1,88 @@
-# Task 1: Software Configuration
+# Task 2: Selectors
+## Subtask 1: Searching for selectors on the login pageList all the elements that are on the login page.
+
+**ACTIVE PAGE ELEMENTS:**
+
+**Input_Field_Login_hyperlink_xpath**
+1. //*[@id="password"]
+2. //input[@name="login"]
+3. //input[@id='login']
+
+**Input_Field_Password_hyperlink_xpath**
+1. //*[@id="password"]
+2. //input[@name='password']
+3. //input[@id='password']
+
+
+**Remaind_password_hyperlink_xpath**
+1. //*[@id="__next"]/form/div/div[1]/a
+2. //*[text()="Remind password"]
+3. //child::div/a
+4. //a[contains(text(),'Remind password')]
+
+**Language_change_button_hyperlink_xpath**
+1. //body/div[@id='__next']/form[1]/div[1]/div[2]/div[1]
+2. //child::div/form/div/div[2]/div
+3. //*[@id="__next"]/form/div/div[2]/div
+
+**English_selection_item_hyperlink_xpath**
+1. //*[text()="English"]
+2. //div[contains(text(),'English')]
+3. //input[@value="en"]
+4. //*[@id="__next"]/form/div/div[2]/div/div
+
+**Polski__selection_item_hyperlink_xpath**
+1. //*[text()="Polski"]
+2. //div[contains(text(),'Polski')]
+3. //input[@value="pl"]
+4. //*[@id="__next"]/form/div/div[2]/div/div
+
+**Button_sign_in_hyperlink_xpath**
+1. //*[@id="__next"]/form/div/div[2]/button/span[1]
+2. //span[contains(text(),'Sign')]
+3. //*[text()="Sign in"]
+
+**Button_text_sign_in_hyperlink_xpath**
+1. //*[@id="__next"]/form/div/div[2]/button
+2. //body/div[@id='__next']/form[1]/div[1]/div[2]/button[1]
+3. //child::div/button
+
+
+**PAGE DESIGN ELEMENTS:**
+
+**Body_page_hyperlink_xpath**
+1. //*[@id="__next"]
+2. //body/div[@id='__next']
+3. //child::div
+
+**Body_form_hyperlink_xpath**
+1. //body/div[@id='__next']/form[1]
+2. //*[@id="__next"]/form
+3. //child::div/form
+
+
+**Scouts_Panel_body_hyperlink_xpath**
+1. //body/div[@id='__next']/form[1]/div[1]
+2. //*[@id="__next"]/form/div
+3. //child::div/form/div
+
+**Scouts_Panel_input_table_body_hyperlink_xpath**
+1. //body/div[@id='__next']/form[1]/div[1]/div[1]
+2. //*[@id="__next"]/form/div/div[1]
+3. //child::div/form/div/div[1]
+
+**Scouts_Panel_text_hyperlink_xpath**
+1. //h5[contains(text(),'Scouts Panel')]
+2. //*[text()="Scouts Panel"]
+3. //child::div[1]/h5[1]
+
+
+**Scouts_Panel_buttons_table_body_hyperlink_xpath**
+1. //body/div[@id='__next']/form[1]/div[1]/div[2]
+2. //*[@id="__next"]/form/div/div[2]
+3. //child::div/form/div/div[2]
+
+<!--- # Task 1: Software Configuration
 ## Subtask 1: Why did I choose to participate in the Dare IT Challenge?
 ### &emsp; Hello! My name is Oleksandr.
 ### &emsp; I want to become a QA Engineer because I like making products better.
@@ -26,5 +110,5 @@ and get the opportunity to contribute as a QA specialist in a new place of work.
 <p>&#128516;</p> 
 <h4>&emsp;I'm glad to invite you to visit my<a href="https://linkedin.com/in/oleksandr-chaban-1656703a/"> LinkedIn page</a></h4>
 <h4>&emsp;Thank You for attention</h4>
-<h4>&emsp;With best wishes</h4>
+<h4>&emsp;With best wishes</h4> --->
 
