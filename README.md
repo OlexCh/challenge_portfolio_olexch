@@ -4,7 +4,7 @@
 **ACTIVE PAGE ELEMENTS:**
 
 **Input_Field_Login_hyperlink_xpath**
-1. //*[@id="password"]
+1. //*[@id="login"]
 2. //input[@name="login"]
 3. //input[@id='login']
 
@@ -37,12 +37,12 @@
 3. //input[@value="pl"]
 4. //*[@id="__next"]/form/div/div[2]/div/div
 
-**Button_sign_in_hyperlink_xpath**
+**Button_text_sign_in_hyperlink_xpath**
 1. //*[@id="__next"]/form/div/div[2]/button/span[1]
 2. //span[contains(text(),'Sign')]
 3. //*[text()="Sign in"]
 
-**Button_text_sign_in_hyperlink_xpath**
+**Button_sign_in_hyperlink_xpath**
 1. //*[@id="__next"]/form/div/div[2]/button
 2. //body/div[@id='__next']/form[1]/div[1]/div[2]/button[1]
 3. //child::div/button
