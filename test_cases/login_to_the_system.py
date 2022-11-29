@@ -26,11 +26,6 @@ class TestLoginPage(unittest.TestCase):
         self.driver.fullscreen_window()
         self.driver.implicitly_wait(IMPLICITLY_WAIT)
 
-    def assert_element_text(self, driver):
-        element_text = driver.find_element(by=By.XPATH, value="//*[text() = 'Scouts Panel']")
-        expected_text = 'Scouts Panel'
-        assert expected_text == element_text
-
     def test_log_in_to_the_system(self):
         user_login = LoginPage(self.driver)
         user_login.title_of_page() #check if the title of the oprned page is correct
