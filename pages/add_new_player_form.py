@@ -4,7 +4,7 @@ from pages.base_page import BasePage
 
 
 class AddPlayerForm(BasePage):
-    addplayerform_url = 'https://scouts-test.futbolkolektyw.pl/en/players/add'
+    addplayerform_url = 'https://scouts.futbolkolektyw.pl/en/players/add'
     expected_title = "Add player"
     email_field_xpath = "//*[@name='email']"
     name_field_xpath = "//*[@name='name']"
@@ -13,8 +13,8 @@ class AddPlayerForm(BasePage):
     weight_field_xpath = "//*[@name='weight']"
     height_field_xpath = "//*[@name='height']"
     leg_dropdown_xpath = "//*[@id='mui-component-select-leg']"
-    left_leg_xpath = "//*[@id='menu-leg']/div[3]/ul/li[1]"
-    right_leg_xpath = "//*[@id='menu-leg']/div[3]/ul/li[2]"
+    left_leg_xpath = "//*[@id='menu-leg']/div[3]/ul/li[2]"
+    right_leg_xpath = "//*[@id='menu-leg']/div[3]/ul/li[1]"
     age_field_xpath = "//*[@name='age']"
     club_field_xpath = "//*[@name='club']"
     level_field_xpath = "//*[@name='level']"

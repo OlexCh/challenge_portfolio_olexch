@@ -6,12 +6,12 @@ from pages.base_page import BasePage
 
 
 class Dashboard(BasePage):
-    futbol_kolektyw_button_xpath = "//*[@title='Logo Scouts Panel']"
-    expected_title = "Scouts panel"
-    dashboard_url = 'https://scouts-test.futbolkolektyw.pl/en'
+    futbol_kolektyw_button_xpath = "//*[@title='Logo PANEL SKAUTINGOWY']"
+    expected_title = "PANEL SKAUTINGOWY"
+    dashboard_url = 'https://scouts.futbolkolektyw.pl/en'
     add_player_button_xpath = "//*[text()='Add player']"
     expected_form_title_of_page = 'Add player'
-    addplayerbutton_url = 'https://scouts-test.futbolkolektyw.pl/en/players/add'
+    addplayerbutton_url = 'https://scouts.futbolkolektyw.pl/en/players/add'
     wait = WebDriverWait(driver, 10)
 
 
